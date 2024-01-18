@@ -6,7 +6,7 @@ pipeline {
     stage('checkout') {
       steps {
         sh 'rm -rf  movie.booking'
-        sh ''
+        sh 'https://github.com/vikas0105/movie.booking.git'
       }
     }
     stage('build') {
